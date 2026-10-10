@@ -1,0 +1,60 @@
+body{
+    background-color:#222222;
+}
+
+header{
+    text-align: center;
+}
+
+div.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.images img{
+    width: 300px;
+    
+}
+
+div.coin img{
+    width: 100%;
+}
+.images2{
+    display: flex;
+    justify-content: center;
+}
+.images2 img{
+    width: 400px;
+}
+.images2 .right,.images2 .left{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    margin: 50px 0;
+}
+.products div{
+    background-color: #313131;
+    color: white;
+    text-align: center;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.products div img{
+    width: 220px;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+}
+footer img{
+    width: 300px;
+}
+footer p{
+    color: white;
+}
